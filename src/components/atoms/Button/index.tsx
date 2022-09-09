@@ -1,11 +1,10 @@
 import React from 'react'
+import styles from './styles.module.scss'
 
-const Button = () => {
+export const Button = () => {
   return (
-    <button>
-			ola
-    </button>
+    <div data-component-button={true} className={styles.container}>
+      button
+    </div>
   )
 }
-
-export default Button

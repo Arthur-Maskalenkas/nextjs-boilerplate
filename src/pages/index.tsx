@@ -1,10 +1,10 @@
 import HomeTemplate from 'templates/HomeTemplate'
 
-export default function Page() {
+export default function Page () {
   return <HomeTemplate />
 }
 
-export function getStaticProps() {
+export function getStaticProps () {
   return {
     props: {}
   }
