@@ -1,0 +1,16 @@
+@use '../vendor/include-media_overwrite.scss' as *;
+
+$container: 100rem;
+
+%container {
+  max-width: $container;
+  width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  //@include media('<container-gutter') {
+  //  padding: 0 2rem;
+  //}
+}
+

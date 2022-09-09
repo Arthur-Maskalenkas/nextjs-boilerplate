@@ -1,0 +1,38 @@
+@use './main.scss' as *;
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, a, p, span, cite {
+  @extend %fontDefault;
+}
+
+button {
+  appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+input, button, a {
+  transition: 300ms all;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  appearance: none;
+  border: unset;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}

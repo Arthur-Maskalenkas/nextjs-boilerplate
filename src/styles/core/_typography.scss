@@ -1,0 +1,65 @@
+%fontDefault  {
+  font-family: 'ibm','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  font-size: 1.2rem;
+  line-height: 1.2+.2rem;
+  font-weight: 400;
+  color: black;
+  letter-spacing: .1rem;
+}
+
+@font-face {
+  font-family: "ibm";
+  src: url("/fonts/ibm/IBMPlexSans-Thin.ttf");
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ibm";
+  src: url("/fonts/ibm/IBMPlexSans-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ibm";
+  src: url("/fonts/ibm/IBMPlexSans-ExtraLight.ttf");
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ibm";
+  src: url("/fonts/ibm/IBMPlexSans-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ibm";
+  src: url("/fonts/ibm/IBMPlexSans-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ibm";
+  src: url("/fonts/ibm/IBMPlexSans-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Acme";
+  src: url("/fonts/acme/Acme-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
