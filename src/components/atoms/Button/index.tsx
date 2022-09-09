@@ -1,10 +1,34 @@
 import React from 'react'
 import styles from './styles.module.scss'
 
-export const Button = () => {
+export type ButtonProps = {
+  children: React.ReactNode
+  variation?: 'default' | 'primary'
+  fullWidth?: boolean
+  rounded?: 'default' | 'small'
+  dataNameCustom?: string
+} & React.ButtonHTMLAttributes<HTMLButtonElement>
+
+export const Button = ({
+  children,
+  variation = 'default',
+  fullWidth = false,
+  rounded = 'default',
+  dataNameCustom = 'default',
+  ...props
+}: ButtonProps) => {
+  const roundedClass = `${rounded}Rounded`
+
+  const dataNameComponent = {
+    [`data-component-button-${dataNameCustom.toLowerCase()}`]: true
+  }
+
   return (
-    <div data-component-button={true} className={styles.container}>
-      button
-    </div>
+    <button
+      {...dataNameComponent}
+      className={`${styles.container} ${fullWidth && styles.fullWidth} ${styles[variation]} ${styles[roundedClass]}`}
+      {...props}>
+      {children}
+    </button>
   )
 }
