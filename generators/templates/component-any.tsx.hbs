@@ -1,9 +1,13 @@
 import React from 'react'
 import styles from './styles.module.scss'
 
-export const {{pascalCase name}} = () => {
+export type {{pascalCase name}}Props = {
+  className?: string
+}
+
+export const {{pascalCase name}} = ({ className }: {{pascalCase name}}Props) => {
   return (
-    <div data-component-{{dashCase name}}={true} className={styles.container}>
+    <div data-component-{{dashCase name}}={true} className={`${styles.container} ${className}`}>
       {{dashCase name}}
     </div>
   )

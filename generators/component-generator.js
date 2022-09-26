@@ -31,12 +31,12 @@ module.exports = (plop) => {
       } else {
         actions.push({
           type: 'add',
-          path: '../src/components/{{type}}/{{dashCase name}}/index.tsx',
-          templateFile: 'templates/Component.tsx.hbs'
+          path: '../src/components/{{lowerCase type}}/{{dashCase name}}/index.tsx',
+          templateFile: 'templates/component-any.tsx.hbs'
         })
         actions.push({
           type: 'add',
-          path: '../src/components/{{type}}/{{dashCase name}}/styles.module.scss',
+          path: '../src/components/{{lowerCase type}}/{{dashCase name}}/styles.module.scss',
           templateFile: 'templates/styles.module.scss.hbs'
         })
       }

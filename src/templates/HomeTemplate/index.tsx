@@ -1,5 +1,7 @@
 import React from 'react'
+
 import style from './styles.module.scss'
+
 import { Button, Icon } from 'components/atoms'
 
 const HomeTemplate = () => (
