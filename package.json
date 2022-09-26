@@ -9,9 +9,7 @@
     "lint": "npx eslint 'src/**' --fix",
     "prepare": "husky install",
     "check:syntax": "tsc --noEmit --skipLibCheck",
-    "generate:atoms": "yarn plop --plopfile ./generators/atomsGenerator.js",
-    "generate:molecules": "yarn plop --plopfile ./generators/moleculesGenerator.js",
-    "generate:organisms": "yarn plop --plopfile ./generators/organismsGenerator.js"
+    "generate:component": "yarn plop --plopfile ./generators/component-generator.js"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^12.1.6",
@@ -19,6 +17,7 @@
     "include-media": "^1.4.10",
     "next": "12.3.0",
     "npm": "^8.9.0",
+    "next-seo": "^5.5.0",
     "phosphor-react": "^1.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",

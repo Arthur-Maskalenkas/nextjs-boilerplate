@@ -2,19 +2,31 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $background-color-container-primary;
 }
 
 a {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, a, p, span, cite {
+h1, h2, h3, h4, a, p, span, cite, li {
   @extend %fontDefault;
+}
+
+li {
+  list-style-position: inside;
 }
 
 button {
   appearance: none;
   background-color: transparent;
+}
+
+a, button {
   cursor: pointer;
 }
 
@@ -35,4 +47,32 @@ input, button, a {
   &::after {
     box-sizing: inherit;
   }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px darken($background-color-container-secondary, 1%) inset !important;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: $text-color-secondary !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $background-color-scroll-track;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $background-color-scroll-thumb;
+
+  border-radius: 50px;
 }

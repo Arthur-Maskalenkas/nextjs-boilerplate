@@ -1,24 +1,21 @@
-import { IconProps as IconLibProps, ThumbsDown, ThumbsUp } from 'phosphor-react'
+import { IconProps as IconLibProps, ThumbsUp } from 'phosphor-react'
 import { IconWeight as IconLibWeightProps } from 'phosphor-react/src/lib'
 import React from 'react'
 
-type IconListProps = 'thumbsUp' | 'thumbsDown'
+import styles from './styles.module.scss'
+
+type IconListProps = 'thumbsUp'
 
 export type IconProps = {
   icon: IconListProps
   mirrored?: boolean
   size?: number
   weight?: IconLibWeightProps
-  dataNameCustom?: string
 } & IconLibProps
 
 const iconList: Record<IconListProps, (props: IconProps) => JSX.Element> = {
   thumbsUp: (props: IconProps) => {
     return <ThumbsUp alt={`${props.icon} Icon`} {...props} />
-  },
-
-  thumbsDown: (props: IconProps) => {
-    return <ThumbsDown alt={`${props.icon} Icon`} {...props} />
   }
 }
 
@@ -27,16 +24,11 @@ export const Icon = ({
   mirrored = false,
   size = 20,
   weight = 'duotone',
-  dataNameCustom = 'default',
+  className,
   ...props
 }: IconProps) => {
-  const dataNameComponent = {
-    [`data-component-icon-${icon.toLowerCase()}`]: true,
-    [`data-component-icon-${dataNameCustom.toLowerCase()}`]: true
-  }
-
   return (
-    <div {...dataNameComponent} >
+    <div className={`${styles.container} ${className}`}>
       {iconList[icon]({
         mirrored,
         size,

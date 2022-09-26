@@ -1,1 +1,28 @@
-@use '../vendor/include-media_overwrite.scss' as *;
+@use './variables' as variables;
+
+@mixin centerAbsolute($width: 100%, $height: 100%) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: $width;
+  height: $height;
+}
+
+@mixin defineFlex($direction: row, $justify: center, $align: center, $wrap: nowrap) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+  flex-wrap: $wrap;
+}
+
+@mixin applyGapInColumnWithTwoChildrens($gap: 6rem) {
+  & > *:nth-child(even) {
+    padding-left: ($gap/2);
+  }
+
+  & > *:nth-child(odd) {
+    padding-right: ($gap/2);
+  }
+}

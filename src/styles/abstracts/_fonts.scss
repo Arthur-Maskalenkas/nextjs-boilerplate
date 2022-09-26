@@ -1,0 +1,15 @@
+@use './variables' as variable;
+
+@mixin fontText {
+  font-size: variable.$font-size-small-14;
+  line-height: variable.$font-size-small-14+.2rem;
+  font-weight: 400;
+  color: variable.$text-color-secondary;
+}
+
+@mixin fontTitle {
+  font-size: variable.$font-size-medium-16;
+  line-height: variable.$font-size-medium-16+.2rem;
+  font-weight: 500;
+  color: variable.$text-color-primary;
+}

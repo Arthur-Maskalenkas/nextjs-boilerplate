@@ -1,0 +1,10 @@
+@use 'styles/main';
+
+.container {
+  font-size: 2rem;
+  line-height: 2rem+.2rem;
+  font-weight: 700;
+  color: main.$color-white;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}

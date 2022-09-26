@@ -1,0 +1,20 @@
+@use 'styles/main';
+
+%variants {
+  &.primary {
+    background-color: main.$color-primary;
+  }
+
+  &.secondary {
+    background-color: main.$background-color-container-secondary;
+  }
+}
+
+.container {
+  @extend %variants;
+
+  & > * {
+        @extend %container;
+    }
+
+}

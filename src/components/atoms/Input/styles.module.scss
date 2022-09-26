@@ -1,0 +1,45 @@
+@use 'styles/main' as main;
+
+
+ %variants {
+  &.primary {
+    > input {
+      @include main.fontText;
+
+      outline: none;
+      border: none;
+      border-bottom: 1px solid main.$color-white;
+
+      border-spacing: 10px;
+      color: white;
+
+      background-color: darken(main.$background-color-container-secondary, 1%);
+
+      width: 100%;
+
+      height: 5.6rem;
+
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
+
+
+  &.withIcon {
+    position: relative;
+
+    > span {
+      position: absolute;
+
+      right: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+.container {
+  @extend %variants;
+
+  width: 100%;
+}

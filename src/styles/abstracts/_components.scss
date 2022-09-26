@@ -1,0 +1,59 @@
+@use './variables' as variables;
+@use '../vendor/include-media_overwrite' as libMedia;
+@use './layout' as layout;
+
+$height-container-header-mobile: 6.2rem;
+$height-container-header-desktop: 9.2rem;
+
+%component-header-layout {
+  .containerContent {
+    @extend %containerPaddingLeftRight;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: $height-container-header-mobile;
+
+    @include libMedia.media('>#{variables.$media-desktop-1024}') {
+      height: $height-container-header-desktop;
+    }
+  }
+
+  .containerToNotAffectScroll {
+    @include libMedia.media('<#{variables.$media-desktop-1024}') {
+      height: $height-container-header-mobile;
+    }
+
+    @include libMedia.media('>#{variables.$media-desktop-1024}') {
+      height: $height-container-header-desktop;
+    }
+  }
+
+  .containerMenu {
+    background: variables.$background-color-container-primary;
+    transition: all variables.$transition-fast;
+
+    &.menuScrolling {
+
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: variables.$z-index-menu-40;
+
+      height: $height-container-header-mobile;
+
+      @include libMedia.media('>#{variables.$media-desktop-1024}') {
+        height: $height-container-header-desktop;
+      }
+
+      opacity: .7;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+}
+

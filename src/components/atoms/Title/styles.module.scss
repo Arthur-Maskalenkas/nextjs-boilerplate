@@ -1,0 +1,38 @@
+@use 'styles/main' as main;
+
+@mixin variations {
+  &.huge {
+    font-size: main.$font-size-huge-30;
+    line-height: main.$font-size-huge-30+1rem;
+    font-weight: 700;
+    color: main.$text-color-primary;
+
+  }
+
+  &.large {
+    font-size: main.$font-size-large-22;
+    line-height: main.$font-size-large-22+1rem;
+    font-weight: 500;
+    color: main.$text-color-primary;
+  }
+
+  &.medium {
+    font-size: main.$font-size-medium-16;
+    line-height: main.$font-size-medium-16+1rem;
+    font-weight: 400;
+    color: main.$text-color-primary;
+  }
+}
+
+.container {
+  @include variations;
+  margin-bottom: main.$space-container-small-30;
+
+  & > * {
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    color: inherit;
+    background-color: inherit;
+  }
+}

@@ -1,34 +1,43 @@
 import React from 'react'
+
 import styles from './styles.module.scss'
 
+import { AtomsDefaultProps } from 'components/atoms/utils'
+
+type ButtonVariations = 'default' | 'primary' | 'linkedin' | 'github'
+type ButtonTags = 'button' | 'a'
+
 export type ButtonProps = {
-  children: React.ReactNode
-  variation?: 'default' | 'primary'
   fullWidth?: boolean
   rounded?: 'default' | 'small'
-  dataNameCustom?: string
-} & React.ButtonHTMLAttributes<HTMLButtonElement>
+  icon?: React.ReactNode
+} & React.ButtonHTMLAttributes<HTMLButtonElement> & React.AnchorHTMLAttributes<HTMLAnchorElement> & AtomsDefaultProps<ButtonVariations, ButtonTags>
 
 export const Button = ({
   children,
-  variation = 'default',
   fullWidth = false,
   rounded = 'default',
-  dataNameCustom = 'default',
+  className,
+  variant = 'default',
+  icon,
+  as: Tag = 'button',
   ...props
 }: ButtonProps) => {
   const roundedClass = `${rounded}Rounded`
-
-  const dataNameComponent = {
-    [`data-component-button-${dataNameCustom.toLowerCase()}`]: true
-  }
+  const iconClass = icon ? styles.withIcon : ''
 
   return (
-    <button
-      {...dataNameComponent}
-      className={`${styles.container} ${fullWidth && styles.fullWidth} ${styles[variation]} ${styles[roundedClass]}`}
+    <Tag
+      className={`
+      ${className} 
+      ${styles.container} 
+      ${fullWidth && styles.fullWidth} 
+      ${styles[variant]} 
+      ${styles[roundedClass]} 
+      ${iconClass}`}
       {...props}>
       {children}
-    </button>
+      {icon && <span className={styles.icon}>{icon}</span>}
+    </Tag>
   )
 }

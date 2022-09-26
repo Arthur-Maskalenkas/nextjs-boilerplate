@@ -1,11 +1,13 @@
 @import '../../../node_modules/include-media/dist/include-media';
 
-$breakpoints: (
-  phone: 280px,
-  phonemid: 375px,
-  tablet: 750px,
-  desktop: 1024px,
-  notebook: 1200px,
-  xl: 1500px,
-  xxl: 1800px
-);
+// Overwrite lib...
+//$breakpoints: (
+//  phone: 280px,
+//  phone-mid: 375px,
+//  tablet: 750px,
+//  desktop: 1024px,
+//  notebook: 1200px,
+//  container-gutter: 1350px,
+//  xl: 1500px,
+//  xxl: 1800px
+//);

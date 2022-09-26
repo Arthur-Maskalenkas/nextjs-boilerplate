@@ -1,0 +1,45 @@
+@use 'styles/main' as main;
+
+.container {
+  @extend %component-header-layout;
+
+  @include main.media('<#{main.$media-desktop-1024}') {
+    display: none;
+  }
+
+  .containerContent {
+    @extend %container;
+
+    .linkMenu {
+      font-size: 1.4rem;
+      line-height: 1.4rem+.2rem;
+      font-weight: 400;
+      color: main.$text-color-primary;
+
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: -.2rem;
+        height: .2rem;
+        width: 0;
+        background-color: main.$text-color-secondary;
+        transition: width main.$transition-fast ease-in-out;
+      }
+
+      &:hover {
+        &::before {
+          width: 100%;
+        }
+      }
+
+      &:not(:last-child) {
+        margin-right: 4rem;
+      }
+
+    }
+  }
+}
+
+

@@ -1,41 +1,70 @@
 
-P
- src/styles/core/_typography.scss,c\c\cc688dde72679d4b96873579934ed8363eaa8ea7
 9
 	yarn.lock,5\3\53585a096fe3a3b96321113856ae62602995a33b
 =
 next-env.d.ts,7\9\7948598afd6f2aa542f1b55d7b6f077a70937e77
-O
-src/styles/abstracts/_base.scss,7\f\7f5f031ed469a0f80ca78eefb04676fc611a1d0b
+B
+src/pages/_app.tsx,2\e\2eefa41a18ed6ea3f58b3748f9e5559a28e77646
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+>
+next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
+=
+tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
 ^
 .src/styles/vendor/include-media_overwrite.scss,6\1\61e417a9a08143a778cdcbcdaf4aba045c66cc7f
-F
-src/styles/global.scss,5\b\5b66b2b8ddd00fc5662db5aa77f13791074bd2ad
-D
-src/styles/main.scss,3\5\353030f31ac807524e80367dd0726728089e12af
+X
+(src/components/organisms/Header/utils.ts,1\6\16a3b89c9691bd04e7fa498ccf933827cb20f746
+h
+8src/components/organisms/Header/header-desktop/index.tsx,1\3\138b1c9daeeea8b9d073b6f306902e11fdf6d06b
+H
+src/helpers/env/index.ts,5\8\58e61d39ea2f9bd380e982af729dc3af4b256eb5
+J
+src/helpers/links/index.ts,6\c\6c5abf44351b9b559d9b770f26d0028d29d32c63
+G
+src/pages/_document.tsx,0\5\052f85edfc3fbb9d129530f0f8b191ff6c16f7ce
+C
+src/pages/index.tsx,d\2\d2d3bb60cab7e8c869b5fdf0a820b7edf2fc7859
+P
+ src/styles/abstracts/_fonts.scss,2\3\23cfd8d3c16e8a2aec0ae71258ba5ae067353b41
+O
+src/styles/abstracts/_base.scss,7\f\7f5f031ed469a0f80ca78eefb04676fc611a1d0b
 U
 %src/styles/abstracts/_animations.scss,b\f\bf1d7e93816f0a6a657570752f5056d701aba011
+U
+%src/styles/abstracts/_components.scss,0\0\00c956e4651bcdb66d48d906aa901c84e58cbfd7
 Q
 !src/styles/abstracts/_layout.scss,4\c\4ca49c7ce99be35cd6fc879cc6868f18dd177e48
 T
 $src/styles/abstracts/_variables.scss,6\7\67b63bd99acb9a2457354a7282c8c2e46bd8797f
-T
-$generators/templates/styles.scss.hbs,4\8\48ab263e9bbc067cdf4b8999b4be12f574673476
-L
-generators/atomsGenerator.js,a\2\a2c4dfbfbcd514e12022736c9e103d89afb00559
-V
-&generators/templates/component.tsx.hbs,f\9\f98b5943d1f1128be5b1c7ab08090741e8ecf151
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+P
+ src/styles/core/_typography.scss,c\c\cc688dde72679d4b96873579934ed8363eaa8ea7
+D
+src/styles/main.scss,3\5\353030f31ac807524e80367dd0726728089e12af
+F
+src/styles/global.scss,5\b\5b66b2b8ddd00fc5662db5aa77f13791074bd2ad
+]
+-src/templates/HomeTemplate/styles.module.scss,2\1\2137587181e439a70e97996a9c6fe987e2444c49
 =
-tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
-B
-src/pages/_app.tsx,2\e\2eefa41a18ed6ea3f58b3748f9e5559a28e77646
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
+.eslintignore,8\8\88939cd7e826eac4f61dd9adac091b9d64277287
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 B
 .lintstagedrc.json,0\a\0af001b2e60216c0a4fc3e3c579aa411718a0237
-C
-src/pages/index.tsx,d\2\d2d3bb60cab7e8c869b5fdf0a820b7edf2fc7859
->
-.eslintrc.json,7\1\71c20a341bfe32aa5cd5b4384e94f942bab6a7d3
+A
+.husky/pre-commit,a\b\ab6c0c74cc7cd7c8c8b24da380d18aa4667658ae
+Q
+!src/components/organisms/index.ts,4\5\4540acae78ef6c4d78bbff7c39509e507914f971
+]
+-src/components/atoms/Title/styles.module.scss,3\3\334cce9e4c56a4a35a2464406360ce27d21a7265
+a
+1src/components/atoms/Container/styles.module.scss,1\2\125ad094ad1823c07a56a3d9e5cc98ee7cd5ae9a
+\
+,src/components/atoms/Icon/styles.module.scss,d\f\df88c47f891ebc7d959519fe50b7b04e8ee6b609
+]
+-src/components/atoms/Input/styles.module.scss,a\5\a55cbd17a13bcf16fd1a7f9234a9c76460df4c3a
+_
+/src/components/atoms/Loading/styles.module.scss,f\7\f78d0e722cc99f05f9f8ee486da204be58bfbac5
+\
+,src/components/atoms/Logo/styles.module.scss,6\3\63a88f2b530512e5d0852166ecf535712fe307eb

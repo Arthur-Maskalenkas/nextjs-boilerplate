@@ -1,33 +1,31 @@
 @use 'styles/main';
 
-@mixin variations {
+%variants {
   &.primary {
-    background-color: main.$primaryDark;
-    color: main.$white;
-    text-align: center;
-    width: 100%;
-    height: 4rem;
+    background-color: main.$color-primary;
 
     &:hover {
-      background-color: darken(main.$primaryDark, 2%);
+      background-color: darken(main.$color-primary, 10%);
     }
   }
-}
 
-@mixin roundedProps {
   &.smallRounded {
     border-radius: 1rem;
   }
-}
 
-@mixin propsPassed {
   &.fullWidth {
     width: 100%;
+  }
+
+  &.withIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
 .container {
-  @include variations;
-  @include roundedProps;
-  @include propsPassed;
+  @extend %variants;
+
+  padding: .8rem 1rem;
 }

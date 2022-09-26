@@ -1,10 +1,55 @@
-$white: #FFF;
-$black: #000;
-$background: #F2F2F2;
-$primary: #880E4F;
-$primaryDark: #560027;
-$primaryLight: #BC477B;
-$disabledBackground: #CCC;
-$disabledColor: #666;
-$gray: #858585;
-$orange: #eb5602;
+$background-color-container-primary: #161616;
+$background-color-container-secondary: #242424;
+
+$background-color-scroll-thumb: #888;
+$background-color-scroll-track: #f1f1f1;
+
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-primary: #FF0653;
+
+$text-color-primary: #FFFFFF;
+$text-color-secondary: #B6B6B6;
+
+$transition-fast: 200ms;
+$transition-medium: 400ms;
+$transition-slow: 600ms;
+
+$z-index-negative: -1;
+$z-index-any-10: 10;
+$z-index-menu-40: 40;
+$z-index-menu-mobile-50: 50;
+$z-index-always-on-top-100: 100;
+
+$space-container-small-30: 3rem;
+$space-container-medium-60: 6rem;
+$space-gutter-20: 2rem;
+
+$font-size-small-14: 1.4rem;
+$font-size-medium-16: 1.6rem;
+$font-size-large-22: 2.2rem;
+$font-size-huge-30: 3rem;
+
+$media-phone-280: 280px;
+$media-phone-mid-375: 375px;
+$media-phone-large-500: 500px;
+$media-tablet-750: 750px;
+$media-desktop-1024: 1024px;
+$media-notebook-1200: 1200px;
+$media-gutter-1350: 1350px;
+
+
+
+$space-xxx-small-5: 0.5rem;
+$space-xx-small-10: 1rem;
+$space-x-small-15: 1.5rem;
+$space-small-20: 2rem;
+$space-medium-30: 3rem;
+$space-large-40: 4rem;
+$space-x-large-50: 5rem;
+$space-xx-large-60: 6rem;
+$space-xxx-large-70: 7rem;
+$space-huge-80: 8rem;
+$space-x-huge-90: 9rem;
+$space-xx-huge-100: 10rem;
+$space-xxx-huge-110: 11rem;

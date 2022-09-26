@@ -1,2 +1,7 @@
 export * from './Button'
 export * from './Icon'
+export * from './Logo'
+export * from './Container'
+export * from './Title'
+export * from './Input'
+export * from './Loading'
