@@ -1,7 +1,8 @@
 import React, { forwardRef, useEffect, useImperativeHandle, useState } from 'react'
-import { listOfMenuLinks } from 'helpers/data/link-menu'
 
 import styles from './styles.module.scss'
+
+import { listOfMenuLinks } from '../../utils'
 
 import { Icon } from 'components/atoms'
 
@@ -56,7 +57,7 @@ const MenuMobile: React.ForwardRefRenderFunction<RefMenuMobileProps, any> = (
             aria-label="Fechar Menu"
             onClick={() => handleClick()}
           >
-            <Icon icon="X" size={50} alt={'Fechar Menu'} color={'#FF0653'}/>
+            <Icon icon="x" size={50} alt={'Fechar Menu'} color={'#FF0653'}/>
           </button>
         </nav>
       )}

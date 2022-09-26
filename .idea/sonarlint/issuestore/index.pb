@@ -13,8 +13,6 @@ B
 tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
 ^
 .src/styles/vendor/include-media_overwrite.scss,6\1\61e417a9a08143a778cdcbcdaf4aba045c66cc7f
-X
-(src/components/organisms/Header/utils.ts,1\6\16a3b89c9691bd04e7fa498ccf933827cb20f746
 h
 8src/components/organisms/Header/header-desktop/index.tsx,1\3\138b1c9daeeea8b9d073b6f306902e11fdf6d06b
 H
@@ -50,18 +48,12 @@ F
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-B
-.lintstagedrc.json,0\a\0af001b2e60216c0a4fc3e3c579aa411718a0237
-A
-.husky/pre-commit,a\b\ab6c0c74cc7cd7c8c8b24da380d18aa4667658ae
 Q
 !src/components/organisms/index.ts,4\5\4540acae78ef6c4d78bbff7c39509e507914f971
 ]
 -src/components/atoms/Title/styles.module.scss,3\3\334cce9e4c56a4a35a2464406360ce27d21a7265
 a
 1src/components/atoms/Container/styles.module.scss,1\2\125ad094ad1823c07a56a3d9e5cc98ee7cd5ae9a
-\
-,src/components/atoms/Icon/styles.module.scss,d\f\df88c47f891ebc7d959519fe50b7b04e8ee6b609
 ]
 -src/components/atoms/Input/styles.module.scss,a\5\a55cbd17a13bcf16fd1a7f9234a9c76460df4c3a
 _
