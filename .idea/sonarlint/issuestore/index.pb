@@ -1,16 +1,10 @@
 
 9
 	yarn.lock,5\3\53585a096fe3a3b96321113856ae62602995a33b
-=
-next-env.d.ts,7\9\7948598afd6f2aa542f1b55d7b6f077a70937e77
 B
 src/pages/_app.tsx,2\e\2eefa41a18ed6ea3f58b3748f9e5559a28e77646
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 >
 next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
-=
-tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
 ^
 .src/styles/vendor/include-media_overwrite.scss,6\1\61e417a9a08143a778cdcbcdaf4aba045c66cc7f
 h
@@ -60,3 +54,33 @@ _
 /src/components/atoms/Loading/styles.module.scss,f\7\f78d0e722cc99f05f9f8ee486da204be58bfbac5
 \
 ,src/components/atoms/Logo/styles.module.scss,6\3\63a88f2b530512e5d0852166ecf535712fe307eb
+V
+&src/components/atoms/Loading/index.tsx,3\c\3cad9101e843527a0f86b139520de79bc41a0f18
+S
+#src/components/atoms/Logo/index.tsx,b\a\ba7530637ff2eabfe5d6475c009d09c90b6d9df7
+T
+$src/components/atoms/Title/index.tsx,d\a\dac96223ac1b1ccdb6cd74d8bf029b5d8a142b9d
+M
+src/components/atoms/index.ts,8\a\8aa036cadd932aba2b84dbd3712fbf6767598d72
+M
+src/components/atoms/utils.ts,b\4\b48a4a481fa128f50df93dec437dff879dd149a2
+T
+$src/templates/HomeTemplate/index.tsx,4\c\4c3d9eb1afaa6421938e58933e0c3f1691ce6ba7
+Z
+*generators/templates/component-any.tsx.hbs,1\8\18b64fce2f5e28994c319d021706c7fcb215c37f
+A
+.husky/pre-commit,a\b\ab6c0c74cc7cd7c8c8b24da380d18aa4667658ae
+g
+7src/components/organisms/Header/header-mobile/index.tsx,0\5\05204c01041c2f2df53ce37dc8aa2802c47387fd
+S
+#src/components/atoms/Icon/index.tsx,1\e\1eac457ec991ed2d4cda9b21815d99508c06bba4
+y
+Isrc/components/organisms/Header/header-mobile/menu-render-links/index.tsx,8\5\85b916cf3d9517b5459742656114623d4dc16aba
+X
+(src/components/organisms/Header/utils.ts,1\6\16a3b89c9691bd04e7fa498ccf933827cb20f746
+\
+,src/components/atoms/Icon/styles.module.scss,d\f\df88c47f891ebc7d959519fe50b7b04e8ee6b609
+T
+$src/components/atoms/Input/index.tsx,1\0\100b06d5cab55cdaa854f1f56700bd8858f85ca8
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
