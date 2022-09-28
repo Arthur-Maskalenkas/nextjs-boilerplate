@@ -46,8 +46,6 @@ Q
 !src/components/organisms/index.ts,4\5\4540acae78ef6c4d78bbff7c39509e507914f971
 ]
 -src/components/atoms/Title/styles.module.scss,3\3\334cce9e4c56a4a35a2464406360ce27d21a7265
-a
-1src/components/atoms/Container/styles.module.scss,1\2\125ad094ad1823c07a56a3d9e5cc98ee7cd5ae9a
 ]
 -src/components/atoms/Input/styles.module.scss,a\5\a55cbd17a13bcf16fd1a7f9234a9c76460df4c3a
 _
@@ -84,8 +82,6 @@ Q
 !generators/component-generator.js,f\3\f3b231558d8114e45d0558bc55626ac22e3a791a
 [
 +generators/templates/component-atom.tsx.hbs,6\b\6bab25293a250dcfc09c80ea63ba5ec9dc05fc9b
-X
-(src/components/atoms/Container/index.tsx,f\f\ff697a54fe1c2551e92ef037d004a62685af3a26
 [
 +generators/templates/styles.module.scss.hbs,6\2\62d41f26aede699aeb0a3a872af48b4228204a0f
 =
