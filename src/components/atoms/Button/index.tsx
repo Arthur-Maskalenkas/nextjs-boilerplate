@@ -4,7 +4,7 @@ import styles from './styles.module.scss'
 
 import { AtomsDefaultProps } from 'components/atoms/utils'
 
-type ButtonVariations = 'default' | 'primary' | 'linkedin' | 'github'
+type ButtonVariations = 'default' | 'primary'
 type ButtonTags = 'button' | 'a'
 
 export type ButtonProps = {

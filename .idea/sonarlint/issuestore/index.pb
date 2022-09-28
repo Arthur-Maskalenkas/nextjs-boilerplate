@@ -62,8 +62,6 @@ T
 $src/components/atoms/Title/index.tsx,d\a\dac96223ac1b1ccdb6cd74d8bf029b5d8a142b9d
 M
 src/components/atoms/index.ts,8\a\8aa036cadd932aba2b84dbd3712fbf6767598d72
-M
-src/components/atoms/utils.ts,b\4\b48a4a481fa128f50df93dec437dff879dd149a2
 T
 $src/templates/HomeTemplate/index.tsx,4\c\4c3d9eb1afaa6421938e58933e0c3f1691ce6ba7
 Z
