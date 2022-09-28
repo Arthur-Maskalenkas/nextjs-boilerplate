@@ -15,10 +15,22 @@ const makeSut = (): SutTypes => {
   }
 }
 
+const get = {
+  button: () => screen.getByRole('button', { name: /children/i })
+}
+
 describe('Button', () => {
   test('Should render Button correctly', () => {
     makeSut()
 
-    expect(screen.getByRole('button', { name: 'children' })).toBeInTheDocument()
+    expect(get.button()).toBeInTheDocument()
+  })
+
+  describe('Variations', () => {
+    test('Should render Button with default variation', () => {
+      makeSut()
+
+      expect(get.button()).toHaveClass('default')
+    })
   })
 })
