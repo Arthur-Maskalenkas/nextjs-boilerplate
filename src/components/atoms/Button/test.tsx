@@ -26,14 +26,14 @@ describe('Button', () => {
 
       expect(get.button()).toBeInTheDocument()
     })
-  })
 
-  test('Should render button with default props', () => {
-    makeSut()
+    test('Should render button with default props', () => {
+      makeSut()
 
-    expect(get.button()).toBeInTheDocument()
-    expect(get.button()).toHaveClass('default')
-    expect(get.button()).toHaveClass('defaultRounded')
+      expect(get.button()).toBeInTheDocument()
+      expect(get.button()).toHaveClass('default')
+      expect(get.button()).toHaveClass('defaultRounded')
+    })
   })
 
   describe('Variations', () => {
