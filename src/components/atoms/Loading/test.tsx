@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, RenderResult } from '@testing-library/react'
+import { render, RenderResult, screen } from '@testing-library/react'
 
 import { Loading } from '.'
 
@@ -18,7 +18,8 @@ const makeSut = (): SutTypes => {
 describe('Loading', () => {
   test('Should render Loading correctly', () => {
     const { sut: { container } } = makeSut()
-
     expect(container).toMatchSnapshot()
+
+    expect(screen.getByLabelText('carregando')).toBeInTheDocument()
   })
 })

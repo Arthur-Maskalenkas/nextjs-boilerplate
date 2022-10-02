@@ -1,8 +1,6 @@
 
 9
 	yarn.lock,5\3\53585a096fe3a3b96321113856ae62602995a33b
-B
-src/pages/_app.tsx,2\e\2eefa41a18ed6ea3f58b3748f9e5559a28e77646
 >
 next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
 ^
@@ -11,8 +9,6 @@ H
 src/helpers/env/index.ts,5\8\58e61d39ea2f9bd380e982af729dc3af4b256eb5
 J
 src/helpers/links/index.ts,6\c\6c5abf44351b9b559d9b770f26d0028d29d32c63
-G
-src/pages/_document.tsx,0\5\052f85edfc3fbb9d129530f0f8b191ff6c16f7ce
 C
 src/pages/index.tsx,d\2\d2d3bb60cab7e8c869b5fdf0a820b7edf2fc7859
 P
@@ -21,8 +17,6 @@ O
 src/styles/abstracts/_base.scss,7\f\7f5f031ed469a0f80ca78eefb04676fc611a1d0b
 U
 %src/styles/abstracts/_animations.scss,b\f\bf1d7e93816f0a6a657570752f5056d701aba011
-U
-%src/styles/abstracts/_components.scss,0\0\00c956e4651bcdb66d48d906aa901c84e58cbfd7
 Q
 !src/styles/abstracts/_layout.scss,4\c\4ca49c7ce99be35cd6fc879cc6868f18dd177e48
 T
@@ -44,8 +38,6 @@ Q
 !src/components/organisms/index.ts,4\5\4540acae78ef6c4d78bbff7c39509e507914f971
 _
 /src/components/atoms/Loading/styles.module.scss,f\7\f78d0e722cc99f05f9f8ee486da204be58bfbac5
-S
-#src/components/atoms/Logo/index.tsx,b\a\ba7530637ff2eabfe5d6475c009d09c90b6d9df7
 M
 src/components/atoms/index.ts,8\a\8aa036cadd932aba2b84dbd3712fbf6767598d72
 Z
@@ -86,7 +78,5 @@ T
 $src/components/atoms/Button/test.tsx,6\0\60ea7cb4015df0e7becada06f49b554eda60f409
 X
 (src/components/atoms/Container/index.tsx,f\f\ff697a54fe1c2551e92ef037d004a62685af3a26
-T
-$src/templates/HomeTemplate/index.tsx,4\c\4c3d9eb1afaa6421938e58933e0c3f1691ce6ba7
 S
 #src/components/atoms/Icon/index.tsx,1\e\1eac457ec991ed2d4cda9b21815d99508c06bba4

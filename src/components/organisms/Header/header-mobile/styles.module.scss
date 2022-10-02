@@ -1,9 +1,0 @@
-@use 'styles/main' as main;
-
-.container {
-  @extend %component-header-layout;
-
-  @include main.media('>#{main.$media-desktop-1024}') {
-    display: none
-  }
-}
