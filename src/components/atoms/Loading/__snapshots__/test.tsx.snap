@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Loading Should render Loading correctly 1`] = `
+exports['Loading Should render Loading correctly 1'] = `
 <div>
   <div
     class="container"
@@ -11,4 +11,4 @@ exports[`Loading Should render Loading correctly 1`] = `
     <div />
   </div>
 </div>
-`;
+`
