@@ -1,5 +1,6 @@
 import React from 'react'
-import { render, RenderResult } from '@testing-library/react'
+import { render, RenderResult, screen } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 
 import { InputWithForwardRef, InputProps } from '.'
 
@@ -8,7 +9,7 @@ type SutTypes = {
 }
 
 const makeSut = (props?: Partial<InputProps>): SutTypes => {
-  const sut = render(<InputWithForwardRef {...props}/>)
+  const sut = render(<InputWithForwardRef {...props} placeholder={'Input'}/>)
 
   return {
     sut
@@ -46,5 +47,15 @@ describe('Input', () => {
     const { sut: { container } } = makeSut({ icon: 'list' })
 
     expect(container.querySelector('.withIcon')).toBeInTheDocument()
+  })
+
+  test('Should type input', async () => {
+    makeSut()
+
+    const input = screen.getByPlaceholderText('Input') as HTMLInputElement
+
+    await userEvent.type(input, 'test')
+
+    expect(input.value).toEqual('test')
   })
 })

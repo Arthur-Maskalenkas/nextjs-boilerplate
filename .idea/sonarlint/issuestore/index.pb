@@ -42,8 +42,6 @@ F
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 Q
 !src/components/organisms/index.ts,4\5\4540acae78ef6c4d78bbff7c39509e507914f971
-]
--src/components/atoms/Title/styles.module.scss,3\3\334cce9e4c56a4a35a2464406360ce27d21a7265
 _
 /src/components/atoms/Loading/styles.module.scss,f\7\f78d0e722cc99f05f9f8ee486da204be58bfbac5
 S
@@ -70,8 +68,6 @@ Q
 next-env.d.ts,7\9\7948598afd6f2aa542f1b55d7b6f077a70937e77
 >
 jest.config.js,8\8\881d5d47bdc17ef8facebef59b68b5fc099a0293
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 ^
 .src/components/atoms/Button/styles.module.scss,4\1\41c716f98cf17bdaf43c79311fec924a58c25ac4
 A
