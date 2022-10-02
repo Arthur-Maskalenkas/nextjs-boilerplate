@@ -20,16 +20,8 @@ _
 /src/components/atoms/Loading/styles.module.scss,f\7\f78d0e722cc99f05f9f8ee486da204be58bfbac5
 M
 src/components/atoms/index.ts,8\a\8aa036cadd932aba2b84dbd3712fbf6767598d72
-Z
-*generators/templates/component-any.tsx.hbs,1\8\18b64fce2f5e28994c319d021706c7fcb215c37f
 \
 ,src/components/atoms/Icon/styles.module.scss,d\f\df88c47f891ebc7d959519fe50b7b04e8ee6b609
-Q
-!generators/component-generator.js,f\3\f3b231558d8114e45d0558bc55626ac22e3a791a
-[
-+generators/templates/component-atom.tsx.hbs,6\b\6bab25293a250dcfc09c80ea63ba5ec9dc05fc9b
-[
-+generators/templates/styles.module.scss.hbs,6\2\62d41f26aede699aeb0a3a872af48b4228204a0f
 =
 next-env.d.ts,7\9\7948598afd6f2aa542f1b55d7b6f077a70937e77
 ^
@@ -76,45 +68,35 @@ V
 &src/components/atoms/Loading/index.tsx,3\c\3cad9101e843527a0f86b139520de79bc41a0f18
 U
 %src/components/atoms/Loading/test.tsx,3\6\36d0fb7af3fbbe337fc55c6cb766b74dc8304f5e
-k
-;src/components/organisms/layout/components/footer/index.tsx,7\0\70da9ad84dc93d95f4c08d0947706c0fb7f5bef0
-j
-:src/components/organisms/layout/components/footer/test.tsx,e\4\e45bc712c4a3074bbf71f11ada67168741085dfa
-t
-Dsrc/components/organisms/layout/components/footer/styles.module.scss,b\b\bb595d752dd8bbc8e73cd1d377df937889ed32aa
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 >
 .eslintrc.json,7\1\71c20a341bfe32aa5cd5b4384e94f942bab6a7d3
 S
 #src/components/atoms/Logo/index.tsx,b\a\ba7530637ff2eabfe5d6475c009d09c90b6d9df7
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 =
 jest.setup.ts,3\c\3c7a58d3269ae7ac90cb5a6ad2539259f1e21cad
-t
-Dsrc/components/organisms/layout/components/header/styles.module.scss,2\6\26aae1448c8de5959d89d1d9cc5942be5985009b
 =
 tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
 >
 jest.config.js,8\8\881d5d47bdc17ef8facebef59b68b5fc099a0293
-|
-Lsrc/components/organisms/layout/components/header/desktop/styles.module.scss,5\b\5bca792f2cee1c7f5d21ebef564d940e9b0d13b9
 J
 src/helpers/links/index.ts,6\c\6c5abf44351b9b559d9b770f26d0028d29d32c63
+F
+src/styles/global.scss,5\b\5b66b2b8ddd00fc5662db5aa77f13791074bd2ad
+P
+ src/styles/abstracts/_fonts.scss,2\3\23cfd8d3c16e8a2aec0ae71258ba5ae067353b41
+a
+1src/components/layout/components/footer/index.tsx,4\2\42adc4a8c8a6f166b1cd51572711d58d48c30509
+g
+7src/components/layout/components/header/mobile/test.tsx,5\b\5b7324932bf11652dd1918c562344f33e494b548
+U
+%src/styles/abstracts/_animations.scss,b\f\bf1d7e93816f0a6a657570752f5056d701aba011
+O
+src/styles/abstracts/_base.scss,7\f\7f5f031ed469a0f80ca78eefb04676fc611a1d0b
+>
+next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
 j
-:src/components/organisms/layout/components/header/utils.ts,8\2\82c444c1b983d88565b2d632d921e222e5d05cfe
-r
-Bsrc/components/organisms/layout/components/header/desktop/test.tsx,3\0\3045730c47000ce662e6ab24f059802ce6fb2564
-s
-Csrc/components/organisms/layout/components/header/desktop/index.tsx,f\6\f6e85e20efe3f6de68683db73debb7c2b1d75fc9
-{
-Ksrc/components/organisms/layout/components/header/mobile/styles.module.scss,5\b\5baa595f8aa9117d2f783a6d0f50573364a0089d
-r
-Bsrc/components/organisms/layout/components/header/mobile/index.tsx,e\c\ec8b178524dccde7cbe790bbdd3cbd4e12f3b430
-q
-Asrc/components/organisms/layout/components/header/mobile/test.tsx,3\c\3cc2517bc0f049925546f488ce583525a5fd772c
-j
-:src/components/organisms/layout/components/header/test.tsx,e\c\ec96171e3aaf9b5e3c64bb7fa687200bfaf69c4e
-k
-;src/components/organisms/layout/components/header/index.tsx,0\4\040a8f76be26173c092a3ea843e5e48aaabafa31
+:src/components/layout/components/header/styles.module.scss,d\f\dfa9d2c614d8d1170a7bf64a5381ee64586cddbd
+U
+%src/styles/abstracts/_components.scss,0\0\00c956e4651bcdb66d48d906aa901c84e58cbfd7
+O
+src/components/layout/index.tsx,7\6\76c3c1f289fbfb5fc088dc05e7c59f9693a3f964

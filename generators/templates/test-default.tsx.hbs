@@ -1,0 +1,22 @@
+import React from 'react'
+import { render, screen, RenderResult } from '@testing-library/react'
+
+type SutTypes = {
+  sut: RenderResult
+}
+
+const makeSut = (): SutTypes => {
+  const sut = render(<{{pascalCase name}} />)
+
+  return {
+    sut
+  }
+}
+
+describe('{{pascalCase name}}', () => {
+test('Should render {{pascalCase name}} correctly', () => {
+  makeSut()
+
+  expect(screen.getByText(/{{pascalCase name}}/i)).toBeInTheDocument()
+  })
+})
