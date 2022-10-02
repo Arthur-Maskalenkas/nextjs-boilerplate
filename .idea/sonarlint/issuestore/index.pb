@@ -48,8 +48,6 @@ _
 /src/components/atoms/Loading/styles.module.scss,f\7\f78d0e722cc99f05f9f8ee486da204be58bfbac5
 \
 ,src/components/atoms/Logo/styles.module.scss,6\3\63a88f2b530512e5d0852166ecf535712fe307eb
-V
-&src/components/atoms/Loading/index.tsx,3\c\3cad9101e843527a0f86b139520de79bc41a0f18
 S
 #src/components/atoms/Logo/index.tsx,b\a\ba7530637ff2eabfe5d6475c009d09c90b6d9df7
 T
