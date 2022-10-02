@@ -1,0 +1,19 @@
+@use 'styles/main';
+
+$variants {
+
+}
+
+.container {
+  @extend %variants;
+
+  height: main.$height-container-header-desktop;
+
+  @include main.media('<=#{main.$media-desktop-1024}') {
+    display: none;
+    visibility: hidden;
+  }
+
+  display: flex;
+  justify-content: space-between;
+}
