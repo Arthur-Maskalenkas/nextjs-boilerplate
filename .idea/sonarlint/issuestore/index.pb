@@ -44,8 +44,6 @@ Q
 !src/components/organisms/index.ts,4\5\4540acae78ef6c4d78bbff7c39509e507914f971
 ]
 -src/components/atoms/Title/styles.module.scss,3\3\334cce9e4c56a4a35a2464406360ce27d21a7265
-]
--src/components/atoms/Input/styles.module.scss,a\5\a55cbd17a13bcf16fd1a7f9234a9c76460df4c3a
 _
 /src/components/atoms/Loading/styles.module.scss,f\7\f78d0e722cc99f05f9f8ee486da204be58bfbac5
 \
@@ -94,14 +92,10 @@ U
 %src/components/atoms/Button/index.tsx,8\8\887540ac4f962e1f15f7d64bf7322189ced56aa3
 a
 1src/components/atoms/Container/styles.module.scss,1\2\125ad094ad1823c07a56a3d9e5cc98ee7cd5ae9a
-W
-'src/components/atoms/Container/test.tsx,1\0\108f6964169fe16ccaca03b5f1334ed9ade12d32
 T
 $src/components/atoms/Button/test.tsx,6\0\60ea7cb4015df0e7becada06f49b554eda60f409
 X
 (src/components/atoms/Container/index.tsx,f\f\ff697a54fe1c2551e92ef037d004a62685af3a26
-R
-"src/components/atoms/Icon/test.tsx,f\f\ff7c6bf63ee80a2377e03aeb52c9ff1fbeabfafb
 T
 $src/templates/HomeTemplate/index.tsx,4\c\4c3d9eb1afaa6421938e58933e0c3f1691ce6ba7
 S
