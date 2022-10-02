@@ -1,22 +1,16 @@
 
 9
 	yarn.lock,5\3\53585a096fe3a3b96321113856ae62602995a33b
->
-next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
 ^
 .src/styles/vendor/include-media_overwrite.scss,6\1\61e417a9a08143a778cdcbcdaf4aba045c66cc7f
 H
 src/helpers/env/index.ts,5\8\58e61d39ea2f9bd380e982af729dc3af4b256eb5
-C
-src/pages/index.tsx,d\2\d2d3bb60cab7e8c869b5fdf0a820b7edf2fc7859
 Q
 !src/styles/abstracts/_layout.scss,4\c\4ca49c7ce99be35cd6fc879cc6868f18dd177e48
 P
  src/styles/core/_typography.scss,c\c\cc688dde72679d4b96873579934ed8363eaa8ea7
 D
 src/styles/main.scss,3\5\353030f31ac807524e80367dd0726728089e12af
-]
--src/templates/HomeTemplate/styles.module.scss,2\1\2137587181e439a70e97996a9c6fe987e2444c49
 =
 .eslintignore,8\8\88939cd7e826eac4f61dd9adac091b9d64277287
 :
@@ -82,8 +76,6 @@ V
 &src/components/atoms/Loading/index.tsx,3\c\3cad9101e843527a0f86b139520de79bc41a0f18
 U
 %src/components/atoms/Loading/test.tsx,3\6\36d0fb7af3fbbe337fc55c6cb766b74dc8304f5e
-T
-$src/templates/HomeTemplate/index.tsx,4\c\4c3d9eb1afaa6421938e58933e0c3f1691ce6ba7
 k
 ;src/components/organisms/layout/components/footer/index.tsx,7\0\70da9ad84dc93d95f4c08d0947706c0fb7f5bef0
 j

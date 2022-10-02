@@ -1,11 +1,12 @@
 @use 'styles/main';
 
-$variants {
+%variants {
 
 }
 
 .container {
   @extend %variants;
+  @extend %container;
 
   height: main.$height-container-header-desktop;
 
