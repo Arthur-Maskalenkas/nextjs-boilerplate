@@ -46,8 +46,6 @@ Q
 -src/components/atoms/Title/styles.module.scss,3\3\334cce9e4c56a4a35a2464406360ce27d21a7265
 _
 /src/components/atoms/Loading/styles.module.scss,f\7\f78d0e722cc99f05f9f8ee486da204be58bfbac5
-\
-,src/components/atoms/Logo/styles.module.scss,6\3\63a88f2b530512e5d0852166ecf535712fe307eb
 S
 #src/components/atoms/Logo/index.tsx,b\a\ba7530637ff2eabfe5d6475c009d09c90b6d9df7
 T
