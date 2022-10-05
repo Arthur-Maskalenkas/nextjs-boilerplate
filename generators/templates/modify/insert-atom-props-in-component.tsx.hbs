@@ -1,0 +1,9 @@
+export type {{pascalCase name}}Props = & AtomsDefaultProps<any, any>
+
+export const {{pascalCase name}} = ({ children, className }: {{pascalCase name}}Props) => {
+  return (
+    <div data-component-{{dashCase name}}={true} className={`${styles.container} ${className}`}>
+
+    </div>
+  )
+}
