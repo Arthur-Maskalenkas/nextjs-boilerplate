@@ -53,13 +53,10 @@
             2
         ],
         "react/react-in-jsx-scope": "off",
-
         "import/order": ["error",  {"newlines-between": "always","groups": ["external","index", "sibling", "parent", "internal", "builtin"]}],
-
         "@typescript-eslint/no-var-requires": "off",
-        "eol-last": "off"
-
-
+        "eol-last": "off",
+        "@typescript-eslint/ban-types": "off"
     }
 
 
