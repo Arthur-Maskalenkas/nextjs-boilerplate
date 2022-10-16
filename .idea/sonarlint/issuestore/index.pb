@@ -11,8 +11,6 @@ P
  src/styles/core/_typography.scss,c\c\cc688dde72679d4b96873579934ed8363eaa8ea7
 D
 src/styles/main.scss,3\5\353030f31ac807524e80367dd0726728089e12af
-=
-.eslintignore,8\8\88939cd7e826eac4f61dd9adac091b9d64277287
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -50,8 +48,6 @@ T
 $src/components/atoms/Input/index.tsx,1\0\100b06d5cab55cdaa854f1f56700bd8858f85ca8
 S
 #src/components/atoms/Input/test.tsx,a\a\aa7a8158c0323f2b4f40ff72eaf8e67b2bdcfe50
-]
--src/components/atoms/Title/styles.module.scss,3\3\334cce9e4c56a4a35a2464406360ce27d21a7265
 T
 $src/components/atoms/Title/index.tsx,d\a\dac96223ac1b1ccdb6cd74d8bf029b5d8a142b9d
 V
@@ -60,8 +56,6 @@ U
 %src/components/atoms/Loading/test.tsx,3\6\36d0fb7af3fbbe337fc55c6cb766b74dc8304f5e
 S
 #src/components/atoms/Logo/index.tsx,b\a\ba7530637ff2eabfe5d6475c009d09c90b6d9df7
-=
-tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
 J
 src/helpers/links/index.ts,6\c\6c5abf44351b9b559d9b770f26d0028d29d32c63
 F
@@ -116,8 +110,6 @@ b
 2generators/templates/add/component-default.tsx.hbs,9\a\9a1abd042b6704e6cfc29e543f0386b7fed87ae7
 ]
 -generators/templates/add/test-default.tsx.hbs,7\4\742df99e27af5e6772b75a067dca445f1f9c4b2b
-S
-#src/components/atoms/Title/test.tsx,a\2\a2f732f3c5f46b7f0f8a0b02ae3d121a68486db0
 r
 Bgenerators/templates/modify/insert-atom-props-in-component.tsx.hbs,e\a\eaf2f1d26cf298fd2c13463ef2cf662a79602e22
 c

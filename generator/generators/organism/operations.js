@@ -12,6 +12,15 @@ module.exports = {
       }
     },
 
+    export: {
+      index: {
+        type: 'modify',
+        path: rootDir('src/components/organisms/index.ts'),
+        pattern: /(export .*)/,
+        template: '$1\nexport * from \'./{{dashCase name}}\''
+      }
+    },
+
     styles: {
       index: {
         type: 'add',

@@ -19,6 +19,8 @@ module.exports = (plop) => {
 
       actions.push(add.test.index)
 
+      actions.push(add.export.index)
+
       return actions
     }
   })
