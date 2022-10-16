@@ -101,8 +101,6 @@ j
 :src/components/layout/components/header/styles.module.scss,d\f\dfa9d2c614d8d1170a7bf64a5381ee64586cddbd
 a
 1src/components/layout/components/footer/index.tsx,4\2\42adc4a8c8a6f166b1cd51572711d58d48c30509
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 M
 generator/generators/utils.js,1\e\1e84044850ac0c444f3d25d60f13b3bfaf298d59
 W
