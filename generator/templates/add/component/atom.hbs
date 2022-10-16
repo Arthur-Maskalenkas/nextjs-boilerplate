@@ -1,0 +1,26 @@
+import React from 'react'
+
+import styles from './styles.module.scss'
+
+import { AtomsDefaultProps } from 'components/atoms/utils'
+
+type {{pascalCase name}}Variations = 'default'
+
+export type {{pascalCase name}}Props = AtomsDefaultProps<{{pascalCase name}}Variations>
+
+export const {{pascalCase name}} = ({
+  children,
+  className,
+  variant = 'default'
+}: {{pascalCase name}}Props) => {
+  return (
+    <div
+      className={`
+      ${className}
+      ${styles.container}
+      ${styles[variant]}`}
+    >
+      {children}
+    </div>
+  )
+}
