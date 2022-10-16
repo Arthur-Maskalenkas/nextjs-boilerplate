@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, RenderResult } from '@testing-library/react'
+import { render, RenderResult, screen } from '@testing-library/react'
 
 import { Container, ContainerProps } from '.'
 
@@ -15,32 +15,37 @@ const makeSut = (props?: Partial<ContainerProps>): SutTypes => {
   }
 }
 
-const getContainer = (props?: Partial<ContainerProps>) => {
-  const { sut: { container } } = makeSut(props)
-
-  return container.querySelector('[data-component-container]')
+const get = {
+  container: () => screen.getByTestId('component-container')
 }
 
 describe('Container', () => {
   describe('Default', () => {
     test('Should render Container correctly', () => {
-      expect(getContainer()).toBeInTheDocument()
+      makeSut()
+
+      expect(get.container()).toBeInTheDocument()
     })
 
     test('Should render Container with default props', () => {
-      expect(getContainer()).toHaveClass('default')
-      expect(getContainer()).toHaveAttribute('data-component-container', 'true')
-      expect(getContainer()).toHaveTextContent('children')
+      makeSut()
+
+      expect(get.container()).toHaveClass('default')
+      expect(get.container()).toHaveTextContent('children')
     })
   })
 
   describe('Variations', () => {
     test('Should render Container with primary variation', () => {
-      expect(getContainer({ variant: 'primary' })).toHaveClass('primary')
+      makeSut({ variant: 'primary' })
+
+      expect(get.container()).toHaveClass('primary')
     })
 
     test('Should render Container with secondary variation', () => {
-      expect(getContainer({ variant: 'secondary' })).toHaveClass('secondary')
+      makeSut({ variant: 'secondary' })
+
+      expect(get.container()).toHaveClass('secondary')
     })
   })
 
@@ -59,6 +64,8 @@ describe('Container', () => {
   })
 
   test('Should render Container with id passed', () => {
-    expect(getContainer({ id: 'anyId' })).toHaveAttribute('id', 'anyId')
+    makeSut({ id: 'anyId' })
+
+    expect(get.container()).toHaveAttribute('id', 'anyId')
   })
 })

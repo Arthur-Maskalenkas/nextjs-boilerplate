@@ -14,7 +14,7 @@ export type ContainerProps = {
 export const Container = ({ children, variant = 'default', className, id, as: Tag = 'div', classNameExtraContainer }: ContainerProps) => {
   return (
     <section
-      data-component-container={true}
+      data-testid="component-container"
       id={id}
       className={`${styles.container} ${styles[variant]} ${className}`}
     >

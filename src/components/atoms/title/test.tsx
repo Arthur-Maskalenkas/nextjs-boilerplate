@@ -24,59 +24,59 @@ describe('Title', () => {
     })
 
     test('Should render Title with size large', () => {
-      const { sut: { container } } = makeSut()
+      makeSut()
 
-      expect(container.querySelector('[data-component-title].large')).toBeInTheDocument()
+      expect(screen.getByRole('heading')).toHaveClass('large')
     })
 
     test('Should render Title with tag H1', () => {
-      const { sut: { container } } = makeSut()
+      makeSut()
 
-      expect(container.querySelector('h1')).toHaveTextContent('children')
+      expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument()
     })
   })
 
   describe('Variations', () => {
     test('Should render Title with size medium', () => {
-      const { sut: { container } } = makeSut({ size: 'medium' })
+      makeSut({ size: 'medium' })
 
-      expect(container.querySelector('[data-component-title].medium')).toBeInTheDocument()
+      expect(screen.getByRole('heading')).toHaveClass('medium')
     })
 
     test('Should render Title with size huge', () => {
-      const { sut: { container } } = makeSut({ size: 'huge' })
+      makeSut({ size: 'huge' })
 
-      expect(container.querySelector('[data-component-title].huge')).toBeInTheDocument()
+      expect(screen.getByRole('heading')).toHaveClass('huge')
     })
 
     test('Should render Title with tag H2', () => {
-      const { sut: { container } } = makeSut({ as: 'h2' })
+      makeSut({ as: 'h2' })
 
-      expect(container.querySelector('h2')).toHaveTextContent('children')
+      expect(screen.getByRole('heading', { level: 2 })).toBeInTheDocument()
     })
 
     test('Should render Title with tag H3', () => {
-      const { sut: { container } } = makeSut({ as: 'h3' })
+      makeSut({ as: 'h3' })
 
-      expect(container.querySelector('h3')).toHaveTextContent('children')
+      expect(screen.getByRole('heading', { level: 3 })).toBeInTheDocument()
     })
 
     test('Should render Title with tag H4', () => {
-      const { sut: { container } } = makeSut({ as: 'h4' })
+      makeSut({ as: 'h4' })
 
-      expect(container.querySelector('h4')).toHaveTextContent('children')
+      expect(screen.getByRole('heading', { level: 4 })).toBeInTheDocument()
     })
 
     test('Should render Title with tag H5', () => {
-      const { sut: { container } } = makeSut({ as: 'h5' })
+      makeSut({ as: 'h5' })
 
-      expect(container.querySelector('h5')).toHaveTextContent('children')
+      expect(screen.getByRole('heading', { level: 5 })).toBeInTheDocument()
     })
 
     test('Should render Title with tag H6', () => {
-      const { sut: { container } } = makeSut({ as: 'h6' })
+      makeSut({ as: 'h6' })
 
-      expect(container.querySelector('h6')).toHaveTextContent('children')
+      expect(screen.getByRole('heading', { level: 6 })).toBeInTheDocument()
     })
   })
 })

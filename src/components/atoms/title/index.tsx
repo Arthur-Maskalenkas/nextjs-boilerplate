@@ -17,7 +17,7 @@ export const Title = ({
   size = 'large'
 }:TitleProps) => {
   return (
-    <Tag data-component-title={true} className={`${styles.container} ${className} ${styles[size]}`}>
+    <Tag className={`${styles.container} ${className} ${styles[size]}`}>
       {children}
     </Tag>
   )

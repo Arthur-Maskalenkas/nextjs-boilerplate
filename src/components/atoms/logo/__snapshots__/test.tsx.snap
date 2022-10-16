@@ -1,14 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports['Logo Should render Logo correctly 1'] = `
+exports[`Logo Should render Logo correctly 1`] = `
 <div>
   <a
     aria-label="Logo"
     class="container"
-    data-component-logo="true"
     href="/#"
   >
     Arthur
   </a>
 </div>
-`
+`;
