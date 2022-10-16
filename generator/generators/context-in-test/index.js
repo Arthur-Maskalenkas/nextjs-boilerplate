@@ -6,9 +6,8 @@ module.exports = (plop) => {
     description: 'Implemente contexto em algum teste unitario, totalmente mokado.',
 
     prompts: [
-      questions.component.componentName,
-      questions.component.typeComponent,
-      questions.component.contextName
+      questions.component.contextName,
+      questions.component.componentName
     ],
 
     actions: function () {

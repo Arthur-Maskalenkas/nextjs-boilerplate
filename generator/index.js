@@ -10,10 +10,10 @@ module.exports = (plop) => {
     'Selecione uma das opções para dar inicio ao processo!\n' +
     '')
 
-  // atomGenerator(plop)
-  // moleculeGenerator(plop)
-  // organismGenerator(plop)
-  //
-  // contextGenerator(plop)
+  atomGenerator(plop)
+  moleculeGenerator(plop)
+  organismGenerator(plop)
+
+  contextGenerator(plop)
   contextInTestGenerator(plop)
 }

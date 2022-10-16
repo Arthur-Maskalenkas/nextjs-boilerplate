@@ -10,14 +10,14 @@ module.exports = {
           makesut: {
             params: {
               type: 'modify',
-              path: rootDir('src/components/atoms/Button/test.tsx'),
+              path: rootDir('src/components/{{componentPath}}/test.tsx'),
               pattern: /(const.*\((.*))\)/,
               templateFile: modifyDir('test/component/context/makesut/params.hbs')
             },
 
             render: {
               type: 'modify',
-              path: rootDir('src/components/atoms/Button/test.tsx'),
+              path: rootDir('src/components/{{componentPath}}/test.tsx'),
               pattern: /const sut = render\((.*)\)/,
               templateFile: modifyDir('test/component/context/makesut/render.hbs')
             }
