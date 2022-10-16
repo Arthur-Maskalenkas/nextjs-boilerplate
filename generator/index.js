@@ -1,6 +1,7 @@
 const atomGenerator = require('./generators/atom')
 const moleculeGenerator = require('./generators/molecule')
 const organismGenerator = require('./generators/organism')
+const contextGenerator = require('./generators/context')
 
 module.exports = (plop) => {
   plop.setWelcomeMessage('' +
@@ -11,4 +12,6 @@ module.exports = (plop) => {
   atomGenerator(plop)
   moleculeGenerator(plop)
   organismGenerator(plop)
+
+  contextGenerator(plop)
 }

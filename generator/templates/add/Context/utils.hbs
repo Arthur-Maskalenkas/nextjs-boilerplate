@@ -1,0 +1,37 @@
+import { Dispatch, ReactNode, SetStateAction } from 'react'
+
+/*
+  * Valores que o contexto vai receber quando invocado no componente
+*/
+export type {{pascalCase name}}ProviderProps = {
+	children: ReactNode
+}
+
+/*
+  * Estados presentes no Contexto
+*/
+
+export type AnyStateProps = {
+	isLoading: boolean
+
+}
+
+export const AnyState: AnyStateProps = {
+  isLoading: false
+}
+
+/*
+  * Conteudo retornado pelo Contexto
+*/
+
+export type {{pascalCase name}}ContextProps = {
+	anyState: AnyStateProps
+	setAnyState: Dispatch<SetStateAction<AnyStateProps>>
+	verifyIfIsLoading: () => boolean
+}
+
+export const {{pascalCase name}}DefaultValues: {{pascalCase name}}ContextProps = {
+  anyState: AnyState,
+  setAnyState: () => null,
+  verifyIfIsLoading: () => false
+}

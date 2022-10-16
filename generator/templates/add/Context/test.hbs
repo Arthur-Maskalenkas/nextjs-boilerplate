@@ -1,0 +1,36 @@
+import { act, renderHook } from '@testing-library/react'
+
+import { {{pascalCase name}}Provider, Use{{pascalCase name}}Context } from '.'
+
+import { AnyState } from './utils'
+
+const makeSut = () => {
+  const { result } = renderHook(() => Use{{pascalCase name}}Context(), {
+    wrapper: {{pascalCase name}}Provider
+  })
+
+  return result
+}
+
+describe('{{pascalCase name}}Context', () => {
+  describe('verifyIfIsLoading()', () => {
+    it('should return true if isLoading is true', () => {
+      const sut = makeSut()
+
+      act(() => {
+        sut.current.setAnyState({
+          ...AnyState,
+          isLoading: true
+        })
+      })
+
+      expect(sut.current.verifyIfIsLoading()).toBe(true)
+    })
+
+    it('should return false if isLoading is false', () => {
+      const sut = makeSut()
+
+      expect(sut.current.verifyIfIsLoading()).toBe(false)
+    })
+  })
+})
