@@ -1,0 +1,8 @@
+const sut = render(
+    <{{pascalCase contextName}}Context.Provider value=\{{
+      ...{{pascalCase contextName}}DefaultValues,
+      ...valuesTheContext{{pascalCase contextName}}ReturnsByDefault
+    }}>
+      $1
+    </{{pascalCase contextName}}Context.Provider>
+)

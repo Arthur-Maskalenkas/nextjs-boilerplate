@@ -1,5 +1,5 @@
 module.exports = {
-  component: {
+  context: {
     name: {
       type: 'input',
       name: 'name',

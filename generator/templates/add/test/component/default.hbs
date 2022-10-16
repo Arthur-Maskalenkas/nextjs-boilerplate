@@ -1,14 +1,14 @@
 import React from 'react'
 import { render, screen, RenderResult } from '@testing-library/react'
 
-import { {{pascalCase name}} } from '.'
+import { {{pascalCase name}}, {{pascalCase name}}Props } from '.'
 
 type SutTypes = {
   sut: RenderResult
 }
 
-const makeSut = (): SutTypes => {
-  const sut = render(<{{pascalCase name}} />)
+const makeSut = (props?: Partial<{{pascalCase name}}Props>): SutTypes => {
+  const sut = render(<{{pascalCase name}} {...props}/>)
 
   return {
     sut

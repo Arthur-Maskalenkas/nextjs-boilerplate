@@ -6,7 +6,7 @@ module.exports = (plop) => {
     description: 'Gere toda uma estrutura para desenvolver um Contexto',
 
     prompts: [
-      questions.component.name
+      questions.context.name
     ],
 
     actions: function () {
