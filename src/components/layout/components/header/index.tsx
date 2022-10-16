@@ -6,9 +6,9 @@ import { HeaderMobile } from 'components/layout/components/header/mobile'
 
 export const Header = () => {
   return (
-    <div data-component-header={true} className={`${styles.container}`}>
+    <header data-testid="main-header" className={`${styles.container}`}>
       <HeaderDesktop/>
       <HeaderMobile/>
-    </div>
+    </header>
   )
 }

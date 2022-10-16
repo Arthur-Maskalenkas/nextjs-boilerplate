@@ -1,6 +1,4 @@
 
-9
-	yarn.lock,5\3\53585a096fe3a3b96321113856ae62602995a33b
 ^
 .src/styles/vendor/include-media_overwrite.scss,6\1\61e417a9a08143a778cdcbcdaf4aba045c66cc7f
 H
@@ -19,12 +17,6 @@ _
 next-env.d.ts,7\9\7948598afd6f2aa542f1b55d7b6f077a70937e77
 ^
 .src/components/atoms/Button/styles.module.scss,4\1\41c716f98cf17bdaf43c79311fec924a58c25ac4
-A
-.husky/pre-commit,a\b\ab6c0c74cc7cd7c8c8b24da380d18aa4667658ae
-B
-.lintstagedrc.json,0\a\0af001b2e60216c0a4fc3e3c579aa411718a0237
-?
-.husky/pre-push,5\9\593d8ffe7c61610f0e23c3534ef747eaf3466f44
 a
 1src/components/atoms/Container/styles.module.scss,1\2\125ad094ad1823c07a56a3d9e5cc98ee7cd5ae9a
 X
@@ -69,38 +61,20 @@ O
 next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
 U
 %src/styles/abstracts/_components.scss,0\0\00c956e4651bcdb66d48d906aa901c84e58cbfd7
-O
-src/components/layout/index.tsx,7\6\76c3c1f289fbfb5fc088dc05e7c59f9693a3f964
 j
 :src/components/layout/components/footer/styles.module.scss,a\4\a4d04d493c51b0cfb77174038b0c8ed23c274e77
 C
 src/pages/index.tsx,d\2\d2d3bb60cab7e8c869b5fdf0a820b7edf2fc7859
-h
-8src/components/layout/components/header/desktop/test.tsx,8\a\8a37e42cc3b9cca328b0e295fe24fb4312af64f6
 r
 Bsrc/components/layout/components/header/desktop/styles.module.scss,4\0\40644bdda76d61ee843ee3310b0dfe217bf5bff4
 h
 8src/components/layout/components/header/mobile/index.tsx,b\0\b021cbdf3e693c27b8d9504e111bea6685d9bd0e
 q
 Asrc/components/layout/components/header/mobile/styles.module.scss,0\b\0b8ba73c2bfdaff1c110c28604e0cefd232ad97f
-T
-$src/templates/HomeTemplate/index.tsx,4\c\4c3d9eb1afaa6421938e58933e0c3f1691ce6ba7
 ]
 -src/templates/HomeTemplate/styles.module.scss,2\1\2137587181e439a70e97996a9c6fe987e2444c49
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-`
-0src/components/layout/components/footer/test.tsx,a\a\aa7737fd8d7884f9dd30d679bada4873d3815618
 T
 $src/styles/abstracts/_variables.scss,6\7\67b63bd99acb9a2457354a7282c8c2e46bd8797f
-=
-jest.setup.ts,3\c\3c7a58d3269ae7ac90cb5a6ad2539259f1e21cad
->
-jest.config.js,8\8\881d5d47bdc17ef8facebef59b68b5fc099a0293
-j
-:src/components/layout/components/header/styles.module.scss,d\f\dfa9d2c614d8d1170a7bf64a5381ee64586cddbd
-a
-1src/components/layout/components/footer/index.tsx,4\2\42adc4a8c8a6f166b1cd51572711d58d48c30509
 M
 generator/generators/utils.js,1\e\1e84044850ac0c444f3d25d60f13b3bfaf298d59
 W
@@ -111,12 +85,8 @@ Z
 *generator/templates/add/styles/default.hbs,0\a\0a9af4af30afec655d61db3c5b69c032ab4f80bb
 ]
 -generator/templates/add/component/default.hbs,2\8\28a958cb4f4e95b93cd07bb1634d91376519153b
-=
-.eslintignore,8\8\88939cd7e826eac4f61dd9adac091b9d64277287
 Z
 *generator/templates/add/component/atom.hbs,6\8\686eceb6c472095cb5155e0ff863aadb8c160b10
-=
-tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
 S
 #src/components/atoms/Title/test.tsx,a\2\a2f732f3c5f46b7f0f8a0b02ae3d121a68486db0
 ]
@@ -137,8 +107,6 @@ R
 "generator/generators/atom/index.js,d\c\dc738b10e6754ab5477f9c6e40135d765521ebd7
 X
 (generator/templates/add/Context/test.hbs,e\0\e03c32dbaaf25333842d3c53cdbf42502fcb0774
->
-.eslintrc.json,7\1\71c20a341bfe32aa5cd5b4384e94f942bab6a7d3
 _
 /generator/templates/add/test/component/atom.hbs,7\c\7cfb0e79697eb229e72c9170add430ea293e1d08
 Y
@@ -147,3 +115,49 @@ Y
 )generator/templates/add/Context/index.hbs,b\6\b6854bb163e976190aadfb7c7cb92e49a57d52ac
 b
 2generator/templates/add/test/component/default.hbs,3\4\347ccf1a55786e1fa0c06ede09f13042e0b722b5
+U
+%generator/generators/context/index.js,0\0\000393df4d7ae79fa85f1c72da5d99164e0c27f0
+Y
+)generator/generators/context/questions.js,b\4\b4ab8bd97da6731d1d883657322b46bd0c738a1d
+^
+.src/components/atoms/button/styles.module.scss,d\3\d3c0af586025c49f2e32e6d082f0df2741bef1e1
+t
+Dgenerator/templates/modify/test/component/context/makesut/render.hbs,6\2\62ef43f0f8ae44e2861752f02437044adf282664
+M
+src/components/atoms/utils.ts,b\4\b48a4a481fa128f50df93dec437dff879dd149a2
+t
+Dgenerator/templates/modify/test/component/context/makesut/params.hbs,e\e\eecaad168d593b72052399994aa30dceff9189f2
+l
+<generator/templates/modify/test/component/context/import.hbs,c\e\ce2e5f6e57db8b6649251809a5c752848052b9b5
+Z
+*generator/generators/context/operations.js,a\c\ac13b41b24268c65c0deebe0700af6ef85797758
+X
+(src/components/atoms/container/index.tsx,0\7\0761b2ce863a972408da38fdfc119f31154137f0
+a
+1generator/generators/context-in-test/questions.js,e\3\e3114f9ac6e1869b187808760b1ef5bc0b189693
+b
+2generator/generators/context-in-test/operations.js,9\f\9f319fa328896f94a3537c30737a1ac9f4e73d62
+B
+generator/index.js,4\4\44547bb7a094ef0f162db4155d4630db1e59c902
+]
+-generator/generators/context-in-test/index.js,9\c\9ca2181799e24304ac01711d89345c67e1509818
+G
+src/pages/_document.tsx,0\5\052f85edfc3fbb9d129530f0f8b191ff6c16f7ce
+B
+src/pages/_app.tsx,2\e\2eefa41a18ed6ea3f58b3748f9e5559a28e77646
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+T
+$src/templates/HomeTemplate/index.tsx,4\c\4c3d9eb1afaa6421938e58933e0c3f1691ce6ba7
+U
+%src/components/atoms/button/index.tsx,5\1\512e4fd36814e430b0ccd62c544dd0392ce11b73
+S
+#src/components/atoms/logo/index.tsx,6\4\64c18ae31ac61707d6c3a89637d915ff1cb10353
+M
+src/components/atoms/index.ts,8\a\8aa036cadd932aba2b84dbd3712fbf6767598d72
+T
+$src/components/atoms/title/index.tsx,8\d\8d47ede767a42c12c8d268a8281a4e68edd5e311
+a
+1src/components/layout/components/footer/index.tsx,4\2\42adc4a8c8a6f166b1cd51572711d58d48c30509
+9
+	yarn.lock,5\3\53585a096fe3a3b96321113856ae62602995a33b

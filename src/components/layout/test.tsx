@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, RenderResult } from '@testing-library/react'
+import { render, RenderResult, screen } from '@testing-library/react'
 
 import { Layout } from 'components/layout/index'
 
@@ -17,9 +17,9 @@ const makeSut = (): SutTypes => {
 
 describe('Layout', () => {
   test('Should render Layout correctly', () => {
-    const { sut: { container } } = makeSut()
+    makeSut()
 
-    expect(container.querySelector('[data-component-header]')).toBeInTheDocument()
-    expect(container.querySelector('[data-component-footer]')).toBeInTheDocument()
+    expect(screen.getByTestId('main-header')).toBeInTheDocument()
+    expect(screen.getByTestId('main-footer')).toBeInTheDocument()
   })
 })

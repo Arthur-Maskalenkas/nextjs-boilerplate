@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports['Footer Should render Footer correctly 1'] = `
+exports[`Footer Should render Footer correctly 1`] = `
 <div>
   <footer
     class="container "
-    data-component-footer="true"
+    data-testid="main-footer"
   >
     Footer
   </footer>
 </div>
-`
+`;

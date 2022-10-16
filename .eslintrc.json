@@ -2,8 +2,10 @@
     "env": {
         "browser": true,
         "es2021": true,
-        "node": true
+        "node": true,
+        "cypress/globals": true
     },
+
     "extends": [
         "plugin:react/recommended",
         "standard",
@@ -11,7 +13,9 @@
         "plugin:react/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:@next/next/recommended"
+        "plugin:@next/next/recommended",
+        "plugin:cypress/recommended"
+
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -19,15 +23,23 @@
             "jsx": true
         },
         "ecmaVersion": "latest",
-        "sourceType": "module"
+        "sourceType": "module",
+        "project": "./tsconfig-eslint.json"
     },
     "plugins": [
         "react",
         "@typescript-eslint",
         "react-hooks",
-        "unused-imports"
+        "unused-imports",
+        "cypress"
     ],
     "rules": {
+        "cypress/no-assigning-return-values": "error",
+        "cypress/no-unnecessary-waiting": "error",
+        "cypress/assertion-before-screenshot": "warn",
+        "cypress/no-force": "warn",
+        "cypress/no-async-tests": "error",
+        "cypress/no-pause": "error",
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/no-explicit-any": "off",
         "react/jsx-uses-react": "error",
